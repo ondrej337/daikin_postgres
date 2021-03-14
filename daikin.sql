@@ -34,6 +34,37 @@ CREATE TABLE "daikin"."daikin_index" (
 ALTER TABLE "daikin"."daikin_index" OWNER TO "postgres";
 
 -- ----------------------------
+-- Records of daikin_index
+-- ----------------------------
+BEGIN;
+INSERT INTO "daikin"."daikin_index" VALUES (11, 0, 5, 12, '22:00 - 00:00', 'FRI', 'december', 95);
+INSERT INTO "daikin"."daikin_index" VALUES (12, 2, 6, 1, '00:00 - 02:00', 'SAT', 'january', NULL);
+INSERT INTO "daikin"."daikin_index" VALUES (13, 4, 7, 2, '02:00 - 04:00', 'SUN', 'february', NULL);
+INSERT INTO "daikin"."daikin_index" VALUES (14, 6, NULL, 3, '04:00 - 06:00', NULL, 'march', NULL);
+INSERT INTO "daikin"."daikin_index" VALUES (15, 8, NULL, 4, '06:00 - 08:00', NULL, 'april', NULL);
+INSERT INTO "daikin"."daikin_index" VALUES (16, 10, NULL, 5, '08:00 - 10:00', NULL, 'may', NULL);
+INSERT INTO "daikin"."daikin_index" VALUES (17, 12, NULL, 6, '10:00 - 12:00', NULL, 'june', NULL);
+INSERT INTO "daikin"."daikin_index" VALUES (18, 14, NULL, 7, '12:00 - 14:00', NULL, 'july', NULL);
+INSERT INTO "daikin"."daikin_index" VALUES (19, 16, NULL, 8, '14:00 - 16:00', NULL, 'august', NULL);
+INSERT INTO "daikin"."daikin_index" VALUES (20, 18, NULL, 9, '16:00 - 18:00', NULL, 'september', NULL);
+INSERT INTO "daikin"."daikin_index" VALUES (21, 20, NULL, 10, '18:00 - 20:00', NULL, 'october', NULL);
+INSERT INTO "daikin"."daikin_index" VALUES (22, 22, NULL, 11, '20:00 - 22:00', NULL, 'november', NULL);
+INSERT INTO "daikin"."daikin_index" VALUES (23, 0, NULL, 12, '22:00 - 00:00', NULL, 'december', NULL);
+INSERT INTO "daikin"."daikin_index" VALUES (0, 2, 1, 1, '00:00 - 02:00', 'MON', 'january', 8);
+INSERT INTO "daikin"."daikin_index" VALUES (1, 4, 2, 2, '02:00 - 04:00', 'TUE', 'february', 16);
+INSERT INTO "daikin"."daikin_index" VALUES (2, 6, 3, 3, '04:00 - 06:00', 'WED', 'march', 24);
+INSERT INTO "daikin"."daikin_index" VALUES (3, 8, 4, 4, '06:00 - 08:00', 'THU', 'april', 32);
+INSERT INTO "daikin"."daikin_index" VALUES (4, 10, 5, 5, '08:00 - 10:00', 'FRI', 'may', 40);
+INSERT INTO "daikin"."daikin_index" VALUES (5, 12, 6, 6, '10:00 - 12:00', 'SAT', 'june', 48);
+INSERT INTO "daikin"."daikin_index" VALUES (6, 14, 7, 7, '12:00 - 14:00', 'SUN', 'july', 56);
+INSERT INTO "daikin"."daikin_index" VALUES (7, 16, 1, 8, '14:00 - 16:00', 'MON', 'august', 64);
+INSERT INTO "daikin"."daikin_index" VALUES (8, 18, 2, 9, '16:00 - 18:00', 'TUE', 'september', 72);
+INSERT INTO "daikin"."daikin_index" VALUES (9, 20, 3, 10, '18:00 - 20:00', 'WED', 'october', 80);
+INSERT INTO "daikin"."daikin_index" VALUES (10, 22, 4, 11, '20:00 - 22:00', 'THU', 'november', 88);
+COMMIT;
+
+
+-- ----------------------------
 -- Table structure for daikin_wrap
 -- ----------------------------
 DROP TABLE IF EXISTS "daikin"."daikin_wrap";
