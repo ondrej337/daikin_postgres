@@ -18,7 +18,7 @@ download daikin.sh to the new folder /var/lib/postgresql/daikin/
 
 create schema: daikin on postgres db with postgres user
 
-run dakin.sql
+run daikin.sql
 
 create new crontab for postgres user:
 
