@@ -26,5 +26,13 @@ create new crontab for postgres user:
 
 15,45 * * * * /var/lib/postgresql/daikin/daikin.sh >> /var/lib/postgresql/logs/daikin.log
 
+run views:
+
+daikin_daily
+
+daikin_daily_current
+
+daikin_daily_sum
+
 
 
