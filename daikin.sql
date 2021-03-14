@@ -1,5 +1,5 @@
 /*
- Navicat PostgreSQL Data Transfer
+ PostgreSQL Data Transfer
 
  Source Server         : pi_postgres
  Source Server Type    : PostgreSQL
