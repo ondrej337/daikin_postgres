@@ -1,11 +1,11 @@
 /*
  Navicat PostgreSQL Data Transfer
 
- Source Server         : pi_kovals
+ Source Server         : postgres
  Source Server Type    : PostgreSQL
  Source Server Version : 110010
  Source Host           : localhost:5432
- Source Catalog        : kovals
+ Source Catalog        : postgres
  Source Schema         : daikin
 
  Target Server Type    : PostgreSQL
@@ -31,4 +31,4 @@ CREATE TABLE "daikin"."daikin_wrap" (
   "generate_date" timestamp(6) DEFAULT now()
 )
 ;
-ALTER TABLE "daikin"."daikin_wrap" OWNER TO "kovals";
+ALTER TABLE "daikin"."daikin_wrap" OWNER TO "postgres";
