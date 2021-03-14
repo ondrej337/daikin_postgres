@@ -1,5 +1,7 @@
 # daikin_postgres
 Postgresql>=11.0
+Tested on raspberry pi
+
 postgres database for daikin BRP069A62 
 
 install https://pypi.org/project/python-daikin-altherma/
