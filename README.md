@@ -4,7 +4,7 @@ postgres database for daikin BRP069A62
 
 install https://pypi.org/project/python-daikin-altherma/
 
-add line:
+add lines:
 
 @property
     def tank_consumption(self) -> dict:
